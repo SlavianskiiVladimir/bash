@@ -1,17 +1,17 @@
 # 📌 bash
 
-Sometimes we need to work with remote servers that don't have any graphic interface. In this case it's good to be able to use bash commands. They allow us to perform regular actions such as creating, editing, deleting files and folders via CLI. 
+Иногда нам приходится работать с удаленными серверами, у которых нет графического интерфейса. В этом случае полезно иметь возможность использовать команды bash. Они позволяют нам выполнять обычные действия, такие как создание, редактирование, удаление файлов и папок через интерфейс командной строки.
 
-I am happy to share some bash commands that I used to do tasks during my Quality Assurance studies. 
+Я рад поделиться некоторыми командами bash, которые я использовал для выполнения задач во время моих исследований по обеспечению качества. 
 
 ## Easy navigation
 
-- [Working with files and directories](#task-1)
-- [Editing files, checking and killing proccesses, working with websites](#task-2)
+- [Работа с файлами и категориями](#task-1)
+- [Редактирование файлов, проверка и завершение процессов, работа с веб-сайтами](#task-2)
 
 ## Task 1
 
-##### Working with files and directories
+##### Работа с файлами и каталогами
 ```bash
 ~                                     # Home directory 
 pwd                                   # Show current directory path
@@ -43,7 +43,7 @@ nano file1.txt + manual replacement   # Using one of the editors, replace all li
 nano file3.txt + manual replacement 
 ```
 ## Task 2
-##### Editing files, checking and killing proccesses, pinging websites
+##### Редактирование файлов, проверка и отключение процессов, пингование веб-сайтов
 ```bash
 mkdir test3                                   # Create directory test3 
 cd test3                                      # Open directory test3 
